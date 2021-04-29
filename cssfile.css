@@ -1,0 +1,36 @@
+body{
+    background: skyblue;
+}
+*{
+    box-sizing: border-box;
+    font-size: 25px;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+}
+#mydiv{
+    width: 400px;
+    padding: 35px;
+    background: red;
+    margin-left: 35%;
+}
+input[type=text]{
+    width: 90%;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+input[type=button]{
+    width:20%;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#clear{
+    width:100%;
+}
+
+
+
+    
