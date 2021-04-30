@@ -1,13 +1,24 @@
-<html>
-    <head>
-        <title> Calculator</title>
-        <link type="text/css" rel="stylesheet" href="cssfile.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="cssfile.css">
+    <title> Calculator</title>
+</head>
     <body>
         <script type="text/javascript" src="jsfile.js"></script>
         <script src="p1.js"></script>
-        <div id="mydiv">
-            <i><h2 id="heading">Online  Calculator</h2></i>
+        <body>
+            <div class="jumbotron jumbotron-fluid text-center">
+                    <h2 id="heading"><i> Online Calculator</i></h1><br><br><br>
+            </div>
+            <div class="container text-center">
             <form name="cal">
                 <input type="text" name="display1" id="dis" >
                 <br><br>
@@ -29,7 +40,7 @@
                 <input type="button"  value="0" onclick="display('0')">
                 <input type="button"  value="%" onclick="display('%')">
                 <input type="button"  value="/" onclick="display('/')">
-                <input type="button" value="=" onclick="cal.display1.value=eval(cal.display1.value) ">
+                <input type="button" value="=" onclick="calculate() ">
                 <br><br>
                 <input type="text" value="CLEAR"  onclick="display1.value=' '"/>
                 <br><br>
@@ -37,5 +48,6 @@
         </div>
     </body>
 </html>
+
 
 
