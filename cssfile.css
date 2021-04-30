@@ -1,34 +1,32 @@
-body{
-    background: skyblue;
-}
-*{
-    box-sizing: border-box;
-    font-size: 25px;
-}
 #heading{
     font-size: 50px;
     text-align: center;
-}
-#mydiv{
-    width: 400px;
-    padding: 35px;
-    background: red;
-    margin-left: 35%;
+    color:red;
+    
 }
 input[type=text]{
-    width: 90%;
-    padding:10px;
+    width: 120px;
     font-size: 20px;
     border-radius: 5px;
+    background-color:grey ;
 }
 input[type=button]{
-    width:20%;
-    padding:10px;
+    width:80px;
     font-size: 20px;
     border-radius: 5px;
+    color:orangered;
+    background-color:black;
+    height: 50px;
 }
+
+#dis{
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+}
+
 #clear{
-    width:100%;
+    width:90%;
 }
 
 
